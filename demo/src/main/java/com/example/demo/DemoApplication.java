@@ -31,7 +31,7 @@ public class DemoApplication {
     }
 
     @ResponseBody
-    @RequestMapping(value = "/hello1", method = RequestMethod.POST)
+    @RequestMapping(value = "/hello2", method = RequestMethod.POST)
     public String hello1(HttpServletRequest request){
         JSONObject resultJson = new JSONObject();
         try {
